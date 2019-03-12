@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>Bootstrap 4 Home page</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
+		<link rel="stylesheet" href="./css/bootstrap.css">
+		<link rel="stylesheet" href="./css/style.css">
+	</head>
+	<body>
+		<div class="container" style="font-family: Raleway;">
+			<header>
+				<nav class="navbar navbar-expand-md navbar-dark bg-primary">
+					<a class="navbar-brand" href="#">CompanyName</a>
+							
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResMenuId" aria-controls="navbarResMenuId" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+							
+					<div class="collapse navbar-collapse" id="navbarResMenuId">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item active">
+								<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Link</a>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									Dropdown
+								</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<a class="dropdown-item" href="#">Action</a>
+									<a class="dropdown-item" href="#">Another action</a>
+									<div class="dropdown-divider"></div>
+									<a class="dropdown-item" href="#">Something else here</a>
+								</div>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link disabled" href="#">Disabled</a>
+							</li>
+						</ul>
+							
+						<form class="form-inline my-2 my-lg-0">
+							<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+							<button class="btn btn-outline-light my-2 my-sm-0 " type="submit">Search</button>
+						</form>
+					</div>
+				</nav>
+			</header>
+
+			<div class="jumbotron">
+				<h1 class="display-4">Simple Awesome Heading</h1>
+				<p class="lead">I want your columns to simply stack in some grid tiers? Use a combination of different classes for each tier as needed. See the example below for a better idea of how it all works.</p>
+				<p class="lead">
+					<a class="btn btn-primary btn-large" href="#" role="button">Learn more</a>
+				</p>
+			</div>
+
+			<div class="row">
+				<div class="col-sm-12 col-md-4">
+					<div class="card mb-4 mb-md-0 mb-lg-0 mb-xl-0">
+						<div class="card-body text-center">
+							<h5 class="card-title">My card</h5>
+							<div class="card-text">Some text over here which show card description.</div>
+							<a href="#" class="card-link">Card link</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-4 col-sm-6">
+					<div class="card mb-4 mb-sm-0 mb-md-0 mb-lg-0 mb-xl-0">
+						<div class="card-body text-center">
+							<h5 class="card-title">My card</h5>
+							<div class="card-text">Some text over here which show card description.</div>
+							<a href="#" class="card-link">Card link</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-4 col-sm-6">
+					<div class="card">
+						<div class="card-body text-center">
+							<h5 class="card-title">My card</h5>
+							<div class="card-text">Some text over here which show card description.</div>
+							<a href="#" class="card-link">Card link</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row mt-4">
+				<div class="col-sm-12 col-md-8 text-center text-sm-left text-md-left">
+					<h4>An important heading</h4>
+					<p class="lead">A sort of important subheading can go here, which is large and gray.</p>
+					<p>Rewrote both custom and default checkboxes and radios. Now, both have matching HTML structure and the same layout styles (stacked default, inline with modifier class). This allows us to style the label based on the input’s state, simplifying support for the disabled attribute (previously requiring a parent class) and better supporting our form validation.</p>
+					<p>Simplifying support for the disabled attribute (previously requiring a parent class) and better supporting our form validation. Rewrote both custom and default checkboxes and radios. Now, both have matching HTML structure. This allows us to style the label based on the input’s state.</p>
+
+				</div>
+				<div class="col-sm-12 col-md-4">
+					<h4 class="mb-4">Secondary Menu</h4>
+					<ul class="nav flex-column nav-pills">
+						<li class="nav-item"><a href="#" class="nav-link active">Active</a></li>
+						<li class="nav-item"><a href="#" class="nav-link">Link 1</a></li>
+						<li class="nav-item"><a href="#" class="nav-link">Link 2</a></li>
+						<li class="nav-item"><a href="#" class="nav-link">Link 3</a></li>
+						<li class="nav-item"><a href="#" class="nav-link">Link 4</a></li>
+						<li class="nav-item"><a href="#" class="nav-link disabled">Disabled</a></li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+
+		<script src="./js/jquery.min.js" crossorigin="anonymous"></script>
+		<script src="./js/popper.min.js" crossorigin="anonymous"></script>
+		<script src="./js/bootstrap.min.js" crossorigin="anonymous"></script>
+	</body>
+</html>
